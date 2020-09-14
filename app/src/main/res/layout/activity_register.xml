@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <EditText
         android:id="@+id/editTextTextName"
@@ -12,13 +12,45 @@
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="191dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="16dp"
+        android:background="#0A000000"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextSurname"
+        style="@style/InputBoxStyle"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:inputType="textPersonName"
+        android:textAppearance="@style/InputBoxTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        style="@style/InputBoxStyle"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="266dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:hint="Почта"
         android:inputType="textEmailAddress"
         android:textAppearance="@style/InputBoxTextStyle"
-        android:textColor="#99000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,11 +61,26 @@
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="275dp"
+        android:layout_marginTop="350dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
-        android:fontFamily="@font/roboto"
         android:hint="Пароль"
+        android:inputType="textPassword"
+        android:textAppearance="@style/InputBoxTextStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPasswordAgain"
+        style="@style/InputBoxStyle"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="434dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Повторите пароль"
         android:inputType="textPassword"
         android:textAppearance="@style/InputBoxTextStyle"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +96,7 @@
         android:layout_marginBottom="31dp"
         android:backgroundTint="@color/colorPrimary"
         android:fontFamily="@font/roboto"
-        android:text="Войти"
+        android:text="Создать"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="#FFFFFF"
         android:textSize="17sp"
@@ -58,20 +105,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/resetPwButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="118dp"
-        android:layout_marginTop="340dp"
-        android:layout_marginEnd="118dp"
-        android:background="#00FFFFFF"
-        android:fontFamily="@font/roboto"
-        android:text="Забыли пароль?"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
