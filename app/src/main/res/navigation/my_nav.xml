@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/mainPage"
         android:name="com.example.recipeapp.MainPage"
-        android:label="Главная"
+        android:label="Рецепты"
         tools:layout="@layout/fragment_main_page" />
     <fragment
         android:id="@+id/searchFragment"
