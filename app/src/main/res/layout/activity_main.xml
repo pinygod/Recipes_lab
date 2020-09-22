@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:background="@color/colorMainGreen"
-        app:itemIconTint="@color/design_default_color_background"
+        app:itemIconTint="@color/cardview_light_background"
         app:itemRippleColor="#FFFFFF"
         app:itemTextColor="#FFFFFF"
         app:labelVisibilityMode="labeled"
