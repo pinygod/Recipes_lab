@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    tools:context=".SettingsFragment">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="17dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="17dp">
+    tools:context=".SettingsFragment"
+    android:layout_marginStart="17dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="17dp">
 
         <Switch
             android:id="@+id/switch1"
@@ -20,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:fontFamily="@font/roboto"
-            android:text="Уведомления о новых блюдах"
+            android:text="@string/notifications"
             android:textColor="#757575"
             android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -40,21 +36,6 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
-                <Button
-                    android:id="@+id/buttonChange"
-                    style="@style/Widget.AppCompat.Button.Borderless"
-                    android:layout_width="0dp"
-                    android:layout_height="36dp"
-                    android:background="@drawable/button_bg"
-                    android:fontFamily="@font/roboto"
-                    android:text="Редактировать профиль"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-                    android:textColor="#131313"
-                    android:textSize="15sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/profileImage" />
 
                 <TextView
                     android:id="@+id/textSurname"
@@ -80,6 +61,20 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/profileImage"
                     app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/buttonChange"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="1dp"
+                    android:background="@drawable/button_shape"
+                    android:text="Редактировать профиль"
+                    android:textAppearance="@style/InputBoxTextStyle"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/profileImage" />
 
                 <ImageView
                     android:id="@+id/profileImage"
@@ -114,7 +109,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:text="Почта"
+                    android:text="@string/mail"
                     android:textColor="#757575"
                     android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -139,7 +134,7 @@
                     android:background="#00FFFFFF"
                     android:fontFamily="@font/roboto"
                     android:foregroundGravity="bottom"
-                    android:text="Изменить"
+                    android:text="@string/change"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/colorAccent"
                     android:textSize="14sp"
@@ -170,7 +165,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/roboto"
-                    android:text="Пароль"
+                    android:text="@string/password"
                     android:textColor="#757575"
                     android:textSize="18sp"
                     app:layout_constraintStart_toStartOf="parent"
@@ -195,7 +190,7 @@
                     android:background="#00FFFFFF"
                     android:fontFamily="@font/roboto"
                     android:foregroundGravity="bottom"
-                    android:text="Изменить"
+                    android:text="@string/change"
                     android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                     android:textColor="@color/colorAccent"
                     android:textSize="14sp"
@@ -206,6 +201,4 @@
 
         </androidx.cardview.widget.CardView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

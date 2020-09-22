@@ -11,4 +11,36 @@
     <string name="login_failed">"Login failed"</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recipePageTitle">Вегетерианские бургеры с котлетой из чечевицы</string>
+    <string name="mainPage1Title">Новые рецепты</string>
+    <string name="mainPage2Title">Идеи для сладкоежек</string>
+    <string name="mainPage3Title">Вечер с грилем</string>
+    <string name="mainPage4Title">Кек на кеке</string>
+    <string name="mainPage1gr1">Салат с курицей и овощами</string>
+    <string name="mainPage1gr2">Крылышки BBQ</string>
+    <string name="mainPage1gr3">Сырники с</string>
+    <string name="mainPage2gr1">Торт Брауни</string>
+    <string name="mainPage2gr2">Творожная шарлотка с яблоками</string>
+    <string name="mainPage2gr3">Сырники с</string>
+    <string name="mainPage3gr1">Салат с курицей и овощами</string>
+    <string name="mainPage3gr2">Крылышки BBQ</string>
+    <string name="mainPage3gr3">Сырники с</string>
+    <string name="InstrBasicText">Основное:</string>
+    <string name="portionCount">4 порции</string>
+    <string name="timeCount">25 мин</string>
+    <string name="recipeName">Тыквенный суп со вкусом карри</string>
+    <string name="createAccount">Создать аккаунт</string>
+    <string name="login">Войти</string>
+    <string name="appName1part">Recipe</string>
+    <string name="appName2part">App</string>
+    <string name="resetPassword">Восстановить пароль</string>
+    <string name="mail">Почта</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="password">Пароль</string>
+    <string name="passwordAgain">Повторите пароль</string>
+    <string name="create">Создать</string>
+    <string name="forgotPassword">Забыли пароль?</string>
+    <string name="change">Изменить</string>
+    <string name="notifications">Уведомления о новых блюдах</string>
 </resources>

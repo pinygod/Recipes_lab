@@ -14,5 +14,9 @@ class RecipePageActivity : AppCompatActivity() {
         viewPager.adapter = fragmentAdapter
 
         tabs.setupWithViewPager(viewPager)
+
+        backButton.setOnClickListener {
+            finish()
+        }
     }
 }

@@ -6,4 +6,7 @@
     <color name="colorMainGreen">#98AE3E</color>
     <color name="black">#000000</color>
     <color name="colorGray">#DADADA</color>
+    <color name="borderColor">#959595</color>
+    <color name="tabsBgColor">#EDEDED</color>
+    <color name="searchItemBg">#EAEAEA</color>
 </resources>
