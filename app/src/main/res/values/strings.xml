@@ -43,4 +43,5 @@
     <string name="forgotPassword">Забыли пароль?</string>
     <string name="change">Изменить</string>
     <string name="notifications">Уведомления о новых блюдах</string>
+    <string name="empty_search_result">По запросу “Оладьи” ничего не найдено</string>
 </resources>

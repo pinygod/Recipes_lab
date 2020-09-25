@@ -8,9 +8,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
-        <activity android:name=".RecipePageActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".SearchActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme"
+            android:label="Поиск-кекоиск"></activity>
+        <activity
+            android:name=".RecipePageActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/AppTheme.Main" />

@@ -9,4 +9,5 @@
     <color name="borderColor">#959595</color>
     <color name="tabsBgColor">#EDEDED</color>
     <color name="searchItemBg">#EAEAEA</color>
+    <color name="inputBoxBgColor">#E8E8E8</color>
 </resources>

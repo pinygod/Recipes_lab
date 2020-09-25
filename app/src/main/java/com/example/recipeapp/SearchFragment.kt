@@ -1,10 +1,12 @@
 package com.example.recipeapp
 
 import android.app.SearchManager
+import android.content.Intent
 import android.os.Bundle
 import android.view.*
 import androidx.core.content.ContextCompat.getSystemService
 import androidx.fragment.app.Fragment
+import kotlinx.android.synthetic.main.fragment_search.*
 
 
 // TODO: Rename parameter arguments, choose names that match
@@ -36,6 +38,14 @@ class SearchFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_search, container, false)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        cardView3.setOnClickListener {
+            val intent = Intent(activity, SearchActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     companion object {
